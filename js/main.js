@@ -76,20 +76,48 @@ $(document).ready(function () {
 
 // Слайдер
 var swiper = new Swiper('.mySwiper', {
-    slidesPerView: 2,
+    slidesPerView: 6,
     hashNavigation: {
         watchState: true,
     },
     spaceBetween: 20,
     simulateTouch: true,
+    breakpoints: {
+        375: { // Для экранов шириной 375px и меньше
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        640: { // Для экранов шириной 640px и больше
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        1024: { // Для экранов шириной 1024px и больше
+            slidesPerView: 6,
+            spaceBetween: 30,
+        }
+    }
 
 });
 
 
 var swiper2 = new Swiper(".mySwiper-2", {
-    slidesPerView: 2,
+    slidesPerView: 6,
     spaceBetween: 20,
     hashNavigation: {
         watchState: true,
     },
+    breakpoints: {
+        375: { // Для экранов шириной 375px и меньше
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        640: { // Для экранов шириной 640px и больше
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        1024: { // Для экранов шириной 1024px и больше
+            slidesPerView: 6,
+            spaceBetween: 30,
+        }
+    }
 });
