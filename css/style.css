@@ -1886,9 +1886,25 @@ button[type="submit"]:hover {
 
 @media screen and (max-width: 1440px) {
     .header {
-        overflow-x: hidden;
+        overflow-x: clip;
     }
-    
+}
+
+@media screen and (max-width: 1028px) {
+
+    .nav {
+        height: 150px;
+    }
+
+    .nav__menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav__menu-list {
+        margin-left: 15px;
+    }
+
 }
 
 @media screen and (max-width: 428px) {
@@ -2463,9 +2479,9 @@ button[type="submit"]:hover {
         /* Цвет стрелок */
     }
 
-     .box-reviews-right .yandex {
+    .box-reviews-right .yandex {
         display: none;
-      }
+    }
 
     .reviews__p {
         width: 100%;
@@ -2500,7 +2516,7 @@ button[type="submit"]:hover {
         height: 20px;
     }
 
-    
+
     .mission {
         height: 523px;
         margin-bottom: 80px;
@@ -2692,7 +2708,7 @@ button[type="submit"]:hover {
 
     .swiper.mySwiper-6 {
         height: 403px;
-      }
+    }
 
     .footer {
         height: 1742px;
