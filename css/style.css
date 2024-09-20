@@ -972,8 +972,11 @@ button[type="submit"]:hover {
 }
 
 .doctors__box-item-card-recommendation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 6px;
-    padding: 6px 10px;
+    padding: 0 10px;
     width: 148px;
     height: 30px;
     background-color: var(--accent-btn);
@@ -2561,7 +2564,7 @@ button[type="submit"]:hover {
         height: 80px;
     }
 
-    .swiper-slide img {
+    .mySwiper .swiper-slide img {
         width: 156px;
         height: 80px;
         object-fit: cover;
