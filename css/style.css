@@ -1880,7 +1880,7 @@ button[type="submit"]:hover {
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 428px) {
 
     .h2-title {
         font-size: 24px;

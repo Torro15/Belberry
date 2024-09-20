@@ -1,16 +1,33 @@
 // Модальное окно
-$(document).ready(function() {
+$(document).ready(function () {
     // Маска для поля ввода телефона
     $('#phone').mask('+7 (999) 999-99-99');
 
     // Отправка формы
-    $('#applicationForm').on('submit', function(event) {
+    $('#applicationForm').on('submit', function (event) {
         event.preventDefault(); // Останавливаем стандартное поведение отправки формы
 
         // Проверяем, заполнены ли обязательные поля
         let fullName = $('#fullName').val();
         let phone = $('#phone').val();
         let consentChecked = $('#consent').is(':checked');
+        let phoneRegex = /^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$/;
+
+        if (!fullName) {
+            alert('Пожалуйста, введите ваше ФИО.');
+            return;
+        }
+
+        if (!phoneRegex.test(phone)) {
+            alert('Пожалуйста, введите корректный номер телефона.');
+            return;
+        }
+
+        if (!consentChecked) {
+            alert('Пожалуйста, подтвердите согласие на обработку персональных данных.');
+            return;
+        }
+
 
         if (fullName && phone && consentChecked) {
             alert('Заявка отправлена!');
