@@ -1934,6 +1934,10 @@ a {
         z-index: 999;
     }
 
+    .sidenav.active {
+         right: 0;
+    }
+
     .nav__menu {
         width: 100%;
         flex-direction: column;
@@ -2243,7 +2247,7 @@ a {
     }
 
     .doctors {
-        height: 686px;
+        min-height: 686px;
         padding-top: 40px;
         margin-bottom: 57px;
     }
@@ -2361,8 +2365,9 @@ a {
 
 
     .reviews {
-        height: 506px;
+        min-height: 506px;
         margin-bottom: 81px;
+        overflow-x: hidden;
     }
 
     .reviews__title {
@@ -2430,7 +2435,7 @@ a {
     }
 
     .mission {
-        height: 523px;
+        min-height: 523px;
         margin-bottom: 80px;
     }
 
@@ -2487,7 +2492,7 @@ a {
     }
 
     .partners {
-        height: 250px;
+        min-height: 250px;
         margin-bottom: 80px;
     }
 
@@ -2517,7 +2522,7 @@ a {
 
 
     .news {
-        height: 591px;
+        min-height: 591px;
         margin-bottom: 80px;
     }
 
@@ -2584,8 +2589,9 @@ a {
     }
 
     .sertificates {
-        height: 452px;
+        min-height: 452px;
         margin-bottom: 80px;
+        overflow: hidden;
     }
 
     .sertificates__box {

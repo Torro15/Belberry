@@ -9,23 +9,35 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $('.burger').click(function () {
-        $('.sidenav').css('right', '0');
+    // Открытие меню при нажатии на бургер
+    $('.burger').on('click', function () {
+        $('.sidenav').addClass('active');
     });
 
-    $('.sidenav-close').click(function () {
-        $('.sidenav').css('right', '-360px');
+    // Закрытие меню при нажатии на крестик
+    $('.sidenav-close').on('click', function () {
+        $('.sidenav').removeClass('active');
     });
 });
 
-$(document).ready(function() {
+// $(document).ready(function () {
+//     $('.burger').click(function () {
+//         $('.sidenav').css('right', '0');
+//     });
+
+//     $('.sidenav-close').click(function () {
+//         $('.sidenav').css('right', '-360px');
+//     });
+// });
+
+$(document).ready(function () {
     // При наведении показывать кнопку
-    $('.sertificates__box-item').hover(function() {
-      $(this).find('.sertificates__btn').show();
-    }, function() {
-      $(this).find('.sertificates__btn').hide();
+    $('.sertificates__box-item').hover(function () {
+        $(this).find('.sertificates__btn').show();
+    }, function () {
+        $(this).find('.sertificates__btn').hide();
     });
-  });
+});
 
 
 
