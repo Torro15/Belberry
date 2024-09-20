@@ -308,14 +308,14 @@ a {
 }
 
 .header__box-images-item-1 {
-    background-image: url(/images/doctor-1.png);
+    background-image: url(../images/doctor-1.png);
     background-repeat: no-repeat;
 }
 
 .header__box-images-item-2 {
     left: -17%;
     top: -18px;
-    background-image: url(/images/doctor-2.png);
+    background-image: url(../images/doctor-2.png);
     background-repeat: no-repeat;
 }
 
@@ -326,7 +326,7 @@ a {
 
 .header__box-images-item-3 {
 
-    background-image: url(/images/doctor-3.png);
+    background-image: url(../images/doctor-3.png);
     background-repeat: no-repeat;
     left: -184px;
     top: -6px;
@@ -416,7 +416,7 @@ a {
 }
 
 .header__box-images-item-4 {
-    background-image: url(/images/doctor-4.png);
+    background-image: url(../images/doctor-4.png);
     background-repeat: no-repeat;
     position: absolute;
     top: -202px;
@@ -430,7 +430,7 @@ a {
 }
 
 .header__box-images-item-5 {
-    background-image: url(/images/doctor-5.png);
+    background-image: url(../images/doctor-5.png);
     background-repeat: no-repeat;
     position: absolute;
     top: -202px;
@@ -444,7 +444,7 @@ a {
 }
 
 .header__box-images-item-6 {
-    background-image: url(/images/doctor-6.png);
+    background-image: url(../images/doctor-6.png);
     background-repeat: no-repeat;
     position: absolute;
     top: -202px;
@@ -476,7 +476,7 @@ a {
     width: 650px;
     height: 420px;
     background-color: var(--bg);
-    background-image: url(/images/about-bg.svg);
+    background-image: url(../images/about-bg.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
 
@@ -616,7 +616,7 @@ a {
     min-height: 419px;
     background-color: #f5f6f6;
     border: 4px solid #f5f6f6;
-    background-image: url(/images/help-bg.png);
+    background-image: url(../images/help-bg.png);
     background-repeat: no-repeat;
     border-radius: 12px;
     padding-top: 29px;
@@ -754,7 +754,7 @@ a {
     border-radius: 20px;
     padding: 20px;
     background-color: var(--bg);
-    background-image: url(/images/quizz-bg.svg);
+    background-image: url(../images/quizz-bg.svg);
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -886,7 +886,7 @@ a {
     background-color: #f3faf9;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    background-image: url(/images/doctors-bg.svg);
+    background-image: url(../images/doctors-bg.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
     position: relative;
@@ -1065,7 +1065,7 @@ a {
     font-size: 15px;
     font-weight: 400;
     padding-left: 17px;
-    list-style: url(/images/list-style.svg);
+    list-style: url(../images/list-style.svg);
 }
 
 .opportunity__box-item.info ul>li {
@@ -1441,16 +1441,16 @@ a {
 }
 
 .news__box-item-img.item-1 {
-    background-image: url(/images/news/news-1.png);
+    background-image: url(../images/news/news-1.png);
 
 }
 
 .news__box-item-img.item-2 {
-    background-image: url(/images/news/news-2.png);
+    background-image: url(../images/news/news-2.png);
 }
 
 .news__box-item-img.item-3 {
-    background-image: url(/images/news/news-3.png);
+    background-image: url(../images/news/news-3.png);
 }
 
 
@@ -1519,7 +1519,7 @@ a {
     position: relative;
     width: 315px;
     height: 453px;
-    background-image: url(/images/sertificate.svg);
+    background-image: url(../images/sertificate.svg);
     padding-top: 96px;
 }
 
@@ -1587,7 +1587,7 @@ a {
 
 .footer {
     min-height: 744px;
-    background-image: url(/images/footer-bg.png);
+    background-image: url(../images/footer-bg.png);
     color: var(--white);
     padding-top: 60px;
     padding-bottom: 32px;
@@ -1626,7 +1626,6 @@ a {
     margin-bottom: 32px;
 }
 
-.footer__inner-item-address {}
 
 .footer__inner-item-address-text {
     display: block;
@@ -1845,7 +1844,7 @@ a {
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 414px) {
 
     .h2-title {
         font-size: 24px;
@@ -1939,7 +1938,7 @@ a {
         width: 100%;
         flex-direction: column;
         background-color: #f5f6f6;
-        background-image: url(/images/sidenav-bg.svg);
+        background-image: url(../images/sidenav-bg.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top right;
@@ -1990,7 +1989,7 @@ a {
         padding-top: 131px;
         margin-bottom: 20px;
         background-color: #f5f6f6;
-        background-image: url(/images/header-mobile-img.png);
+        background-image: url(../images/header-mobile-img.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top;
@@ -2599,7 +2598,7 @@ a {
         width: 280px;
         height: 403px;
         border-radius: 12px;
-        background-image: url(/images/license.png);
+        background-image: url(../images/license.png);
         margin-right: 12px;
     }
 
