@@ -1272,16 +1272,10 @@ button[type="submit"]:hover {
     margin: 0 auto;
 }
 
-.yandex-mobile {
-    display: none;
-}
-
 .swiper.mySwiper-4 {
     width: 100%;
     height: 389px;
 }
-
-
 
 .mission {
     height: 603px;
@@ -1385,8 +1379,7 @@ button[type="submit"]:hover {
     width: 203px;
 }
 
-.swiper-slide img {
-
+.mySwiper .swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -2337,6 +2330,10 @@ button[type="submit"]:hover {
         margin-bottom: 11px;
     }
 
+    .mySwiper-3 .swiper-slide>.doctor-img {
+        height: 300px;
+    }
+
     .opportunity {
         margin-bottom: 54px;
     }
@@ -2432,6 +2429,12 @@ button[type="submit"]:hover {
         height: 339px;
     }
 
+    .swiper.mySwiper-4 .swiper-slide {
+        width: 280px;
+        height: 339px;
+    }
+
+
     .arrow-left,
     .arrow-right {
         display: none;
@@ -2443,6 +2446,10 @@ button[type="submit"]:hover {
         color: transparent;
         /* Цвет стрелок */
     }
+
+     .box-reviews-right .yandex {
+        display: none;
+      }
 
     .reviews__p {
         width: 100%;
@@ -2470,28 +2477,14 @@ button[type="submit"]:hover {
         margin-bottom: 18px;
     }
 
-    .box-reviews-right .yandex {
-        display: none;
-    }
-
-    .mySwiper-4 .swiper-slide {
-        width: 100%;
-    }
-
-    .swiper-button-prev::after,
-    .swiper-rtl .swiper-button-next::after {
-        content: '';
-    }
-
-    .yandex-mobile {
+    .box-reviews-right .yandex-mobile {
         display: block;
+        background-image: url(../images/yandex.svg);
         width: 20px;
+        height: 20px;
     }
 
-    .yandex-mobile img {
-        width: 20px;
-    }
-
+    
     .mission {
         height: 523px;
         margin-bottom: 80px;
