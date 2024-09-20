@@ -1,3 +1,29 @@
+// Модальное окно
+$(document).ready(function() {
+    // Маска для поля ввода телефона
+    $('#phone').mask('+7 (999) 999-99-99');
+
+    // Отправка формы
+    $('#applicationForm').on('submit', function(event) {
+        event.preventDefault(); // Останавливаем стандартное поведение отправки формы
+
+        // Проверяем, заполнены ли обязательные поля
+        let fullName = $('#fullName').val();
+        let phone = $('#phone').val();
+        let consentChecked = $('#consent').is(':checked');
+
+        if (fullName && phone && consentChecked) {
+            alert('Заявка отправлена!');
+            $.fancybox.close(); // Закрываем модальное окно после отправки
+        } else {
+            alert('Пожалуйста, заполните все обязательные поля и дайте согласие.');
+        }
+    });
+});
+
+
+
+// Реализация выпадающего меню
 $(document).ready(function () {
     $('.dropdown').click(function () {
         var submenu = $(this).next('.dropdown-content');
@@ -7,7 +33,7 @@ $(document).ready(function () {
     });
 });
 
-
+// Реализция мобильного меню
 $(document).ready(function () {
     // Открытие меню при нажатии на бургер
     $('.burger').on('click', function () {
@@ -20,16 +46,8 @@ $(document).ready(function () {
     });
 });
 
-// $(document).ready(function () {
-//     $('.burger').click(function () {
-//         $('.sidenav').css('right', '0');
-//     });
 
-//     $('.sidenav-close').click(function () {
-//         $('.sidenav').css('right', '-360px');
-//     });
-// });
-
+// Реализация появления кнопок при наведении на блок сертификата
 $(document).ready(function () {
     // При наведении показывать кнопку
     $('.sertificates__box-item').hover(function () {
@@ -39,9 +57,7 @@ $(document).ready(function () {
     });
 });
 
-
-
-
+// Слайдер
 var swiper = new Swiper('.mySwiper', {
     slidesPerView: 2,
     hashNavigation: {
@@ -51,7 +67,6 @@ var swiper = new Swiper('.mySwiper', {
     simulateTouch: true,
 
 });
-
 
 
 var swiper2 = new Swiper(".mySwiper-2", {

@@ -11,6 +11,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
     <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css">  -->
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -54,11 +56,32 @@
                         <a href="#"><img src="images/nav-login.svg" alt="Login"></a>
                     </div>
                     <div class="nav__menu-info-signup">
-                        <a class="btn nav__menu-btn" href="#">Записаться</a>
+                        <a class="btn nav__menu-btn" href="#" data-fancybox data-src="#modal"
+                            href="javascript:;">Записаться</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Модальное окно с формой -->
+    <div style="display: none;" id="modal">
+        <form id="applicationForm">
+            <h2 class="h2-title">Отправить заявку</h2>
+
+            <label for="fullName">ФИО:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label>
+                <input type="checkbox" id="consent" required>
+                Я даю <a href="#" target="_blank">согласие на обработку персональных данных</a>
+            </label>
+
+            <button class="btn" type="submit">Отправить заявку</button>
+        </form>
     </div>
 
     <nav class="nav">
@@ -92,7 +115,8 @@
                         <a href="#"><img src="images/nav-login.svg" alt="Login"></a>
                     </div>
                     <div class="nav__menu-info-signup">
-                        <a class="btn nav__menu-btn" href="#">Записаться</a>
+                        <a class="btn nav__menu-btn" href="#" data-fancybox data-src="#modal"
+                            href="javascript:;">Записаться</a>
                     </div>
                 </div>
             </div>
@@ -1100,10 +1124,10 @@
     </footer>
 
 
-
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

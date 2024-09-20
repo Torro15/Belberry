@@ -98,6 +98,37 @@ a {
     --font3: 'Ubuntu', sans-serif;
 }
 
+/* Модальное окно */
+#modal {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="checkbox"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+button[type="submit"]:hover {
+    background-color: #0d6969;
+}
+
+
 .nav {
     height: 90px;
     padding: 16px 0;
