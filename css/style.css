@@ -2401,7 +2401,7 @@ button[type="submit"]:hover {
 
 
     .reviews {
-        min-height: 506px;
+        height: 506px;
         margin-bottom: 81px;
         overflow-x: hidden;
     }
