@@ -154,11 +154,6 @@ a {
     background-color: #f1f1f1
 }
 
-/* Показ меню при наведении на кнопку
-.dropdown:hover .dropdown-content {
-    display: block;
-} */
-
 
 .dropdown img {
     width: 24px;
@@ -794,6 +789,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
+    cursor: pointer;
 }
 
 .help__quizz-btn:last-child {
@@ -985,6 +981,7 @@ a {
     margin: 0 auto;
     padding: 8px 24px 10px 24px;
     width: 227px;
+    cursor: pointer;
 }
 
 .opportunity {
@@ -1281,6 +1278,7 @@ a {
 .mission__info-left-info-name {
     font-size: 18px;
     margin-bottom: 8px;
+    font-weight: 500;
 }
 
 .mission__info-left-info-post {
@@ -1924,7 +1922,7 @@ a {
         width: 360px;
         height: 100%;
         position: fixed;
-        top: 0;
+        top: -8px;
         right: -360px;
         /* Скрываем меню за пределами экрана */
         background-image: var(--white);
