@@ -1168,7 +1168,6 @@ button[type="submit"]:hover {
     padding: 24px;
     width: 427px;
     height: 339px;
-    margin-right: 20px;
 }
 
 .reviews__box-item.last {
@@ -1190,7 +1189,7 @@ button[type="submit"]:hover {
     font-family: var(--second-family);
     font-weight: 500;
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 44px;
 }
 
 .reviews__name span {
@@ -1277,6 +1276,13 @@ button[type="submit"]:hover {
     display: none;
 }
 
+.swiper.mySwiper-4 {
+    width: 100%;
+    height: 389px;
+}
+
+
+
 .mission {
     height: 603px;
     margin-bottom: 120px;
@@ -1360,14 +1366,15 @@ button[type="submit"]:hover {
     margin-bottom: 18px;
 }
 
-.swiper {
+.mySwiper {
     width: 100%;
     height: 99px;
-
+    margin-bottom: 12px;
 }
 
-.mySwiper {
-    margin-bottom: 12px;
+.mySwiper-2 {
+    width: 100%;
+    height: 99px;
 }
 
 
@@ -2398,7 +2405,6 @@ button[type="submit"]:hover {
     .reviews {
         height: 506px;
         margin-bottom: 81px;
-        overflow-x: hidden;
     }
 
     .reviews__title {
@@ -2410,6 +2416,7 @@ button[type="submit"]:hover {
     }
 
     .reviews__box {
+        width: 100%;
         margin-left: 0;
         margin-bottom: 22px;
     }
@@ -2421,9 +2428,20 @@ button[type="submit"]:hover {
         border-radius: 12px;
     }
 
+    .swiper.mySwiper-4 {
+        height: 339px;
+    }
+
     .arrow-left,
     .arrow-right {
         display: none;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: transparent;
+        /* Цвет стрелок */
     }
 
     .reviews__p {
@@ -2454,6 +2472,15 @@ button[type="submit"]:hover {
 
     .box-reviews-right .yandex {
         display: none;
+    }
+
+    .mySwiper-4 .swiper-slide {
+        width: 100%;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-rtl .swiper-button-next::after {
+        content: '';
     }
 
     .yandex-mobile {
