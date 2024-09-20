@@ -172,3 +172,53 @@ var swiper4 = new Swiper(".mySwiper-4", {
         }
     }
 });
+
+var swiper5 = new Swiper(".mySwiper-5", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    loop: true, 
+
+    breakpoints: {
+        320: { // Для экранов шириной шириной 320 и больше
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        640: { // Для экранов шириной 640px и больше
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: { // Для экранов шириной 1024px и больше
+            slidesPerView: 3,
+            spaceBetween: 20,
+        }
+    }
+});
+
+var swiper6 = new Swiper(".mySwiper-6", {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    loop: true, 
+
+    breakpoints: {
+        320: { // Для экранов шириной шириной 320 и больше
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        640: { // Для экранов шириной 640px и больше
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: { // Для экранов шириной 1024px и больше
+            slidesPerView: 4,
+            spaceBetween: 20,
+        }
+    }
+});

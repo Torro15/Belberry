@@ -1528,6 +1528,9 @@ button[type="submit"]:hover {
     text-overflow: ellipsis;
 }
 
+.mySwiper-5 .swiper-wrapper {
+    padding: 0 10px;
+}
 
 .news__btn {
     width: 205px;
@@ -1555,7 +1558,7 @@ button[type="submit"]:hover {
     width: 315px;
     height: 453px;
     background-image: url(../images/sertificate.svg);
-    padding-top: 96px;
+    background-repeat: no-repeat;
 }
 
 .sertificates__btn {
@@ -1573,8 +1576,6 @@ button[type="submit"]:hover {
     font-size: 14px;
     display: none;
     cursor: pointer;
-
-
 }
 
 .sertificates__btn svg {
@@ -1585,6 +1586,7 @@ button[type="submit"]:hover {
     font-weight: 700;
     font-size: 28px;
     text-align: center;
+    margin-top: 96px;
     margin-bottom: 20px;
 }
 
@@ -1618,6 +1620,10 @@ button[type="submit"]:hover {
 
 .sertificates__number span {
     color: #828e8c;
+}
+
+.swiper.mySwiper-6 {
+    height: 453px;
 }
 
 .footer {
@@ -2649,7 +2655,7 @@ button[type="submit"]:hover {
     }
 
     .sertificates__box {
-        width: 1400px;
+        width: 100%;
         gap: 12px;
         overflow: hidden;
     }
@@ -2677,6 +2683,10 @@ button[type="submit"]:hover {
         align-items: center;
         justify-content: center;
     }
+
+    .swiper.mySwiper-6 {
+        height: 403px;
+      }
 
     .footer {
         height: 1742px;
