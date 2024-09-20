@@ -2471,7 +2471,7 @@ button[type="submit"]:hover {
     }
 
     .mission {
-        min-height: 523px;
+        height: 523px;
         margin-bottom: 80px;
     }
 
@@ -2528,7 +2528,7 @@ button[type="submit"]:hover {
     }
 
     .partners {
-        min-height: 250px;
+        height: 250px;
         margin-bottom: 80px;
     }
 
@@ -2556,9 +2556,8 @@ button[type="submit"]:hover {
         margin-bottom: -10px;
     }
 
-
     .news {
-        min-height: 591px;
+        height: 591px;
         margin-bottom: 80px;
     }
 
@@ -2625,7 +2624,7 @@ button[type="submit"]:hover {
     }
 
     .sertificates {
-        min-height: 452px;
+        height: 452px;
         margin-bottom: 80px;
         overflow: hidden;
     }
@@ -2746,6 +2745,10 @@ button[type="submit"]:hover {
         letter-spacing: 0.25px;
     }
 
+    .footer__inner-item-download {
+        margin-bottom: 23px;
+    }
+
     .footer__inner-item-download-app {
         gap: 10px;
         margin-bottom: 23px;
@@ -2756,7 +2759,7 @@ button[type="submit"]:hover {
     }
 
     .footer__links {
-        margin-bottom: 23px;
+        margin-bottom: 33px;
     }
 
     .footer__links ul {
