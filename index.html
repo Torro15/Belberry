@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css">  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Боковое меню -->
+    <div id="sideMenu" class="sidenav">
+
+        <div class="nav__menu-mobile">
+            <a id="closeBtn" class="sidenav-close">
+                <img src="images/mobile-close.svg" alt="close">
+            </a>
+            <a href="#"><img class="nav__logo-mobile" src="images/logo.svg" alt="Logo"></a>
+            <a href="tel:"><img src="images/phone-mobile.svg" alt="Phone"></a>
+        </div>
+        <div class="nav__menu">
+            <ul class="nav__menu-list">
+                <li class="dropdown"><a class="dropdown" href="#">О нас <img class="dropdown"
+                            src="images/chevron-down.svg" alt="dropdown"></a>
+                    <div class="dropdown-content">
+                        <a href="#">Отзывы</a>
+                        <a href="#">Новости</a>
+                        <a href="#">Сотрудничество</a>
+                    </div>
+                </li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Врачи</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Диагностика</a></li>
+                <li><a href="#">Анализы</a></li>
+                <li><a href="#">Пациентам</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="nav__menu-info">
+                <div class="nav__menu-info-left">
+                    <a href="tel:+79112100287">+7 911 210 02 87</a>
+                    <p class="p-text">Ежедневно 8:00 - 20:00</p>
+                </div>
+                <div class="nav__menu-info-navigation">
+                    <div class="nav__menu-info-login">
+                        <a href="#"><img src="images/nav-login.svg" alt="Login"></a>
+                    </div>
+                    <div class="nav__menu-info-signup">
+                        <a class="btn nav__menu-btn" href="#">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__menu desktop">
+                <a href="#"><img class="nav__logo" src="images/logo.svg" alt="Logo"></a>
+                <ul class="nav__menu-list">
+                    <li class="dropdown"><a class="dropdown" href="#">О нас <img class="dropdown"
+                                src="images/chevron-down.svg" alt="dropdown"></a>
+                        <div class="dropdown-content">
+                            <a href="#">Отзывы</a>
+                            <a href="#">Новости</a>
+                            <a href="#">Сотрудничество</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Врачи</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Диагностика</a></li>
+                    <li><a href="#">Анализы</a></li>
+                    <li><a href="#">Пациентам</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#"><img src="images/search.svg" alt="Search"></a></li>
+                </ul>
+                <div class="nav__menu-info">
+                    <div class="nav__menu-info-left">
+                        <a href="tel:+79112100287">+7 911 210 02 87</a>
+                        <p class="p-text">Ежедневно 8:00 - 20:00</p>
+                    </div>
+                    <div class="nav__menu-info-login">
+                        <a href="#"><img src="images/nav-login.svg" alt="Login"></a>
+                    </div>
+                    <div class="nav__menu-info-signup">
+                        <a class="btn nav__menu-btn" href="#">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav__menu-mobile">
+                <a id="burgerMenu" class="burger sidenav-trigger" data-target="slide-out">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </a>
+                <div class="nav__logo-mobile"> <a href="#"><img class="logo-mobile" src="images/logo.svg"
+                            alt="Logo"></a></div>
+
+                <div class="nav__phone"> <a href="tel:"><img src="images/phone-mobile.svg" alt="Phone"></a></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Хедер для десктоп -->
+    <header class="header">
+        <div class="container">
+            <div class="header__title">
+                <h1 class="h1-title header__h1">Ваше здоровье <br><span> в надежных руках</span></h1>
+                <h3 class="h3-title header__info">Создаем комфортные условия для вашего лечения и восстановления,
+                    обеспечивая
+                    максимальную эффективность и удобство на каждом этапе.</h3>
+            </div>
+            <div class="header__box">
+                <div class="header__box-images-doctors left">
+                    <div class="header__box-images-item-1 item-box">
+                        <div class="item-box-info">
+                            <p class="p-text item-box-info-name">Ирина Васильва</p>
+                            <p class="p-text item-box-info-number"><span>Стаж</span>
+                                12 лет
+                            </p>
+                        </div>
+                    </div>
+                    <div class="header__box-images-item-2 item-box">
+                        <div class="item-box-info">
+                            <p class="p-text item-box-info-name">Виталий Петров</p>
+                            <p class="p-text item-box-info-number"><span>Стаж</span>
+                                16 лет
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="header__box-images-item-3 item-box">
+                        <div class="item-box-info">
+                            <p class="p-text item-box-info-name">Анастасия Романова</p>
+                            <p class="p-text item-box-info-number"><span>Стаж</span>
+                                8 лет
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="header__box-btns">
+                    <a href="#" class="btn header__box-btns-btn">Связаться с клиникой</a>
+                    <div class="header__box-btns-info">
+                        <img src="images/microscope.svg" alt="Microscope">
+                        <p class="neader__box-btns-text">Современное оборудование и передовые технологии</p>
+                        <div class="header__box-btns-pagination">
+                            <div class="pagination "></div>
+                            <div class="pagination active"></div>
+                            <div class="pagination"></div>
+                            <div class="pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__box-images-doctors right">
+                    <div class="header__box-images-item-4 item-box">
+                        <div class="item-box-info">
+                            <p class="p-text item-box-info-name">Мария Пожарская</p>
+                            <p class="p-text item-box-info-number"><span>Стаж</span>
+                                10 лет
+                            </p>
+                        </div>
+                    </div>
+                    <div class="header__box-images-item-5 item-box">
+                        <div class="item-box-info">
+                            <p class="p-text item-box-info-name">Алина Кириллова</p>
+                            <p class="p-text item-box-info-number"><span>Стаж</span>
+                                7 лет
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="header__box-images-item-6 item-box">
+                        <div class="item-box-info">
+                            <p class="p-text item-box-info-name">Илья Андреев</p>
+                            <p class="p-text item-box-info-number"><span>Стаж</span>
+                                9 лет
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Хедер для мобильной версии -->
+    <header class="header-mobile">
+        <div class="container">
+            <!-- <img src="images/header-mobile-img.png" alt="doctors"> -->
+            <div class="header-mobile-title">
+                <h1 class="h1-title header-mobile-title">Ваше здоровье <br><span> в надежных руках</span></h1>
+                <h3 class="h3-title header-mobile-info">Создаем комфортные условия для вашего лечения и восстановления,
+                    обеспечивая
+                    максимальную эффективность и удобство на каждом этапе.</h3>
+            </div>
+            <a href="#" class="btn header__box-btns-btn">Связаться с клиникой</a>
+            <div class="header__box-btns-info">
+                <p class="header__box-btns-text">Современное оборудование и передовые технологии</p>
+                <div class="header__box-btns-pagination">
+                    <div class="pagination "></div>
+                    <div class="pagination active"></div>
+                    <div class="pagination"></div>
+                    <div class="pagination"></div>
+                </div>
+                <svg width="66" height="87" viewBox="0 0 66 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_2551)">
+                        <path
+                            d="M26.7987 63.0717L54.9807 70.6231M12.4548 74.331L75.8643 91.3215M51.205 84.714C57.745 86.4664 64.7134 85.549 70.577 82.1637C76.4406 78.7783 80.7193 73.2023 82.4717 66.6622C84.2241 60.1222 83.3067 53.1539 79.9213 47.2902C76.5359 41.4266 70.9599 37.148 64.4199 35.3956L60.8971 34.4516M41.1426 51.8125L48.1881 53.7003M59.2622 26.4622L62.094 15.894C62.3443 14.9597 62.2132 13.9642 61.7296 13.1266C61.246 12.2889 60.4494 11.6777 59.5151 11.4273L52.4696 9.53948C51.5353 9.28914 50.5399 9.4202 49.7022 9.90382C48.8645 10.3874 48.2533 11.184 48.003 12.1183L45.1712 22.6866M43.0304 44.767C41.1619 44.2663 39.5687 43.0438 38.6015 41.3685C37.6342 39.6932 37.3721 37.7022 37.8728 35.8336L41.6485 21.7426L62.7849 27.4061L59.0093 41.4971C58.5086 43.3657 57.2861 44.9589 55.6108 45.9261C53.9355 46.8934 51.9445 47.1555 50.0759 46.6548L43.0304 44.767Z"
+                            stroke="#D7F0EE" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_2551">
+                            <rect width="87.5284" height="87.5284" fill="white"
+                                transform="translate(22.6527 -6.00122) rotate(15)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__inner-left">
+                    <h2 class="h2-title about__inner-h2">Добро пожаловать в сеть клиник <span>«Медицинские
+                            Технологии»</span></h2>
+                    <p class="p-text about__inner-text">Медицинский центр "Medical Technologies" в Санкт-Петербурге
+                        предлагает широкий спектр высококачественных медицинских услуг. Мы используем передовые
+                        технологии и новейшее оборудование для точной диагностики и эффективного лечения. Наши
+                        опытные
+                        специалисты, обладающие многолетним опытом, обеспечивают индивидуальный подход к каждому
+                        пациенту.</p>
+                    <a href="#" class="btn about__inner-btn">Узнать больше о клинике</a>
+                </div>
+                <div class="about__inner-img">
+                    <picture>
+                        <source srcset="images/about-mobile-img.png" media="(max-width: 768px)">
+                        <source srcset="images/about-img.png" media="(max-width: 1400px)">
+                        <img src="images/about-img.png" alt="Clinic">
+                    </picture>
+                </div>
+                <div class="about__inner-popup">
+                    <a href="#"><img src="images/popup-btn-1.svg" alt="WriteUs"></a>
+                    <a href="#"><img src="images/popup-btn-2.svg" alt="Up"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why">
+        <div class="container">
+            <h3 class="h3-title why__h3">
+                Почему стоит к нам обратиться?
+            </h3>
+            <div class="why__inner">
+                <div class="why__inner-item">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12L18 34L8 24" stroke="#2CBDC1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <p class="p-text why__inner-title">Онлайн-запись и доступ к результатам</p>
+                    <p class="p-text why__inner-text"> Внедрили систему онлайн-записи, благодаря которой вы можете
+                        выбрать желаемое время приема и специалиста</p>
+                </div>
+                <div class="why__inner-item">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12L18 34L8 24" stroke="#2CBDC1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <p class="p-text why__inner-title">Предварительные консультации</p>
+                    <p class="p-text why__inner-text"> Первичное обследование, позволяющее врачу оценить состояние
+                        пациента и определить шаги лечения или диагностики</p>
+                </div>
+                <div class="why__inner-item">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12L18 34L8 24" stroke="#2CBDC1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <p class="p-text why__inner-title">Централизованная информационная система</p>
+                    <p class="p-text why__inner-text">Единая платформа для хранения и управления всеми данными о
+                        пациентах, медицинских записях и административных процессах.</p>
+                </div>
+                <div class="why__inner-item">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12L18 34L8 24" stroke="#2CBDC1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <p class="p-text why__inner-title">Экспресс-диагностика</p>
+                    <p class="p-text why__inner-text">Быстрое и эффективное обследование, позволяющее оперативно
+                        определить состояние здоровья пациента</p>
+                </div>
+                <div class="why__inner-item">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12L18 34L8 24" stroke="#2CBDC1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <p class="p-text why__inner-title">Оптимизированный маршрут пациентов</p>
+                    <p class="p-text why__inner-text">Упорядоченный процесс перемещения пациентов между отделениями
+                        и
+                        специалистами</p>
+                </div>
+                <div class="why__inner-item">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 12L18 34L8 24" stroke="#2CBDC1" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <p class="p-text why__inner-title">Горячая линия для пациентов</p>
+                    <p class="p-text why__inner-text">Круглосуточная телефонная служба, предоставляющая консультации
+                        и
+                        оперативную поддержку по медицинским вопросам.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help">
+        <div class="container">
+            <div class="help__title">
+                <h2 class="h2-title help__h2">Мы поможем вам</h2>
+                <h3 class="h3-title help__h3">Атмосфера безопасности и эмпатии</h3>
+            </div>
+
+            <div class="help__tabs">
+                <a href="#" class="help__tab active">Специалисты</a>
+                <a href="#" class="help__tab">Диагностика</a>
+                <a href="#" class="help__tab">Анализы</a>
+                <a href="#" class="help__tab">Заболевания</a>
+            </div>
+            <div class="help__box">
+                <h4 class="h4-title help__h4">Более 20 специальностей врачей готовы <span>помочь вам</span></h4>
+                <div class="help__box-btns">
+                    <button class="help__box-btn active">Взрослые врачи</button>
+                    <button class="help__box-btn">Детские врачи</button>
+                </div>
+                <div class="help__box-list">
+                    <div class="help__box-list-item">
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">А</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Андролог</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">В</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Ведение беременности</a></li>
+                                <li class="p-text help__box-list-name name"><a href="#">Врач пренатальной
+                                        диагностики</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">Г</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Гастроэнтеролог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Гематолог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Генетик</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Гинеколог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Гинеколог-хирург</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="help__box-list-item">
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">Д</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Диетолог</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">К</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Кардиолог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Консультант по грудному
+                                        вскармливанию</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">М</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Маммолог</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">Н</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Невролог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Нефролог</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">О</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Онколог</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="help__box-list-item">
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">П</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Педиатр</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Психиатр</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Психиатр</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Психолог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Психотерапевт</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Пульмонолог</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">Р</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Ревматолог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Репродуктолог</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="help__box-list-item">
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">У</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Узи</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Уролог</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Уролог-хирург</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Хирург</a></li>
+                                <li class="p-text help__box-list-name"><a href="#">Эмбриолог</a></li>
+                            </ul>
+                        </div>
+                        <div class="help__box-list-item-line">
+                            <span class="p-text help__box-list-letter">Э</span>
+                            <ul>
+                                <li class="p-text help__box-list-name"><a href="#">Эндокринолог</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="help__quizz">
+                <div class="help__quizz-info">
+                    <h4 class="h4-title help__h4">Получите скидку<br><span>10% на первое посещение</span> любого
+                        специалиста</h4>
+                    <p class="p-text help__quizz-text">Ответьте на 4 простых вопроса о вашей ситуации – менеджер
+                        центра
+                        запишет вас к нужному врачу на удобное вам время и закрепит скидку</p>
+                </div>
+                <div class="help__quizz-question">
+                    <span class="quizz-number">1 вопрос</span>
+                    <h4 class="h4-title help__h4">Выберите врача</h4>
+                    <svg width="44" height="9" viewBox="0 0 44 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4.5" r="4" fill="#3E989A" />
+                        <circle cx="16" cy="4.5" r="3.5" fill="white" stroke="#AFE0DD" />
+                        <circle cx="28" cy="4.5" r="3.5" fill="white" stroke="#AFE0DD" />
+                        <circle cx="40" cy="4.5" r="3.5" fill="white" stroke="#AFE0DD" />
+                    </svg>
+                    <div class="help__quizz-btns">
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn active"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="4" r="4" fill="#3E989A" />
+                            </svg>Кардиолог</button>
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn">M default</button>
+                    </div>
+                    <div class="help__quizz-btns">
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn">M default</button>
+                        <button class="help__quizz-btn">M default</button>
+                    </div>
+                    <div class="help__quizz-btns">
+                        <button class="help__quizz-btn">M default</button>
+                    </div>
+                </div>
+                <!-- Квиз для мобильной версии -->
+                <div class="help__quizz-question-mobile">
+                    <div class="help__quiz-question-mobile-title">
+                        <div class="help__quiz-question-mobile-title-title">
+                            <span class="quizz-number">1 вопрос</span>
+                            <h4 class="h4-title help__h4">Выберите врача</h4>
+                        </div>
+                        <svg width="44" height="9" viewBox="0 0 44 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="4" cy="4.5" r="4" fill="#3E989A" />
+                            <circle cx="16" cy="4.5" r="3.5" fill="white" stroke="#AFE0DD" />
+                            <circle cx="28" cy="4.5" r="3.5" fill="white" stroke="#AFE0DD" />
+                            <circle cx="40" cy="4.5" r="3.5" fill="white" stroke="#AFE0DD" />
+                        </svg>
+                    </div>
+                    <div class="help__quizz-btns">
+                        <button class="help__quizz-btn">Косметолог</button>
+                        <button class="help__quizz-btn active"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="4" r="4" fill="#3E989A" />
+                            </svg>Кардиолог</button>
+                        <!-- </div>
+                    <div class="help__quizz-btns"> -->
+                        <button class="help__quizz-btn">Дерматолог</button>
+                        <button class="help__quizz-btn">Диетолог</button>
+                        <!-- </div>
+                    <div class="help__quizz-btns"> -->
+                        <button class="help__quizz-btn">Гастроэнтеролог</button>
+                        <button class="help__quizz-btn">Гинеколог</button>
+                        <!-- </div>
+                    <div class="help__quizz-btns"> -->
+                        <button class="help__quizz-btn">Терапевт</button>
+                        <button class="help__quizz-btn">Эндокринолог</button>
+                        <button class="help__quizz-btn">Пульмонолог</button>
+                        <button class="help__quizz-btn">Иммунолог</button>
+                        <button class="help__quizz-btn">Детский ревматолог</button>
+                    </div>
+                    <a href="#" class="btn about__inner-btn">Далее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="doctors">
+        <div class="container">
+            <h2 class="h2-title doctors__h2">Наши врачи</h2>
+            <div class="doctors__tabs">
+                <a href="#" class="doctors__tab active">Все</a>
+                <a href="#" class="doctors__tab">Косметологи</a>
+                <a href="#" class="doctors__tab">Кардиологи</a>
+                <a href="#" class="doctors__tab">Дерматологи</a>
+                <a href="#" class="doctors__tab">Диетологи</a>
+                <a href="#" class="doctors__tab">Гастроэнтерологи</a>
+                <a href="#" class="doctors__tab">Гинекологи</a>
+                <a href="#" class="doctors__tab">Терапевты</a>
+                <div class="arrow-btns">
+                    <a href="#"><img class="arrow-btn" src="images/btn-left.svg" alt="Left Button"></a>
+                    <a href="#"><img class="arrow-btn" src="images/btn-right.svg" alt="Right Button"></a>
+                </div>
+            </div>
+
+            <div class="doctors__box">
+                <div class="doctors__box-item">
+                    <div class="doctors__box-item-card">
+                        <div class="doctors__box-item-info info-doctor">
+                            <div class="info-doctor__profession length">Гастроэнтеролог</div>
+                            <div class="info-doctor__year"><span>Стаж </span> 8 лет</div>
+                        </div>
+                        <img src="images/doctor-3.png" alt="Doctor" class="doctor-img">
+                        <div class="doctors__box-item-card-recommendation">80% <span>рекомендаций</span></div>
+                    </div>
+                    <h3 class="h3-title doctors__h3">Анастасия Романова</h3>
+                    <p class="p-text doctors__p">Врач высшей категории</p>
+                    <button class="doctors__box-btn">Записаться <span> от 1100₽</span> </button>
+                </div>
+
+                <div class="doctors__box-item">
+                    <div class="doctors__box-item-card">
+                        <div class="doctors__box-item-info info-doctor">
+                            <div class="info-doctor__profession">Кардиолог</div>
+                            <div class="info-doctor__year"><span>Стаж </span> 12 лет</div>
+                        </div>
+                        <img src="images/doctor-2.png" alt="Doctor" class="doctor-img">
+                        <div class="doctors__box-item-card-recommendation">94% <span>рекомендаций</span></div>
+                    </div>
+                    <h3 class="h3-title doctors__h3">Руслан Глушаков</h3>
+                    <p class="p-text doctors__p">Кандидат медицинских наук</p>
+                    <button class="doctors__box-btn">Записаться <span> от 2000₽</span> </button>
+                </div>
+
+                <div class="doctors__box-item">
+                    <div class="doctors__box-item-card">
+                        <div class="doctors__box-item-info info-doctor">
+                            <div class="info-doctor__profession">Косметолог</div>
+                            <div class="info-doctor__year"><span>Стаж </span> 7 лет</div>
+                        </div>
+                        <img src="images/doctor-5.png" alt="Doctor" class="doctor-img">
+                        <div class="doctors__box-item-card-recommendation">92% <span>рекомендаций</span></div>
+                    </div>
+                    <h3 class="h3-title doctors__h3">Алина Кириллова</h3>
+                    <p class="p-text doctors__p">Врач высшей категории</p>
+                    <button class="doctors__box-btn">Записаться <span> от 1700₽</span> </button>
+                </div>
+
+                <div class="doctors__box-item">
+                    <div class="doctors__box-item-card">
+                        <div class="doctors__box-item-info info-doctor">
+                            <div class="info-doctor__profession">Гинеколог</div>
+                            <div class="info-doctor__year"><span>Стаж </span> 8 лет</div>
+                        </div>
+                        <img src="images/doctor-4.png" alt="Doctor" class="doctor-img">
+                        <div class="doctors__box-item-card-recommendation">80% <span>рекомендаций</span></div>
+                    </div>
+                    <h3 class="h3-title doctors__h3">Алина Кириллова</h3>
+                    <p class="p-text doctors__p">Врач высшей категории</p>
+                    <button class="doctors__box-btn">Записаться <span> от 2800₽</span> </button>
+                </div>
+            </div>
+            <button class="btn doctors__btn">Смотреть всех врачей</button>
+        </div>
+    </section>
+
+    <section class="opportunity">
+        <div class="container">
+            <div class="opportunity__title">
+                <h2 class="h2-title opportunity__h2">Возможности клиники</h2>
+                <h3 class="h3-title opportunity__h3">Только нужные препараты и процедуры</h3>
+            </div>
+            <div class="opportunity__box">
+                <div class="opportunity__box-item buttons">
+                    <h3 class="h3-title opportunity__h3">Возможности клиники</h3>
+                    <button class="opportunity__btn active"><svg width="13" height="12" viewBox="0 0 13 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6.5" cy="6" r="6" fill="#3E989A" />
+                        </svg>Центр психотерапии</button>
+                    <button class="opportunity__btn">Лаборатория</button>
+                    <button class="opportunity__btn">Косметология</button>
+                    <button class="opportunity__btn">Центр неврологии</button>
+                    <button class="opportunity__btn">Стационар</button>
+                </div>
+                <div class="opportunity__box-item info">
+                    <h3 class="h3-title opportunity__h3">Помощь в решении психологических и эмоциональных проблем
+                    </h3>
+                    <p class="p-text opportunity__p">
+                        В нашем Центре работают высококвалифицированные психотерапевты с многолетним опытом. Они
+                        регулярно проходят обучение и участвуют в профессиональных конференциях, чтобы всегда быть в
+                        курсе новейших методик и подходов в психотерапии. Оказываем следующие услуги:
+                    </p>
+                    <ul>
+                        <li>Индивидуальная психотерапия</li>
+                        <li>Семейная и парная терапия</li>
+                        <li>Терапия для детей и подростков</li>
+                    </ul>
+                    <p class="p-text opportunity__p">
+                        Мы придерживаемся принципов конфиденциальности и уважения к каждому пациенту. Наша цель –
+                        помочь
+                        вам
+                        обрести внутренний покой, уверенность в себе и способность справляться с жизненными
+                        трудностями.
+                    </p>
+                </div>
+                <div class="opportunity__box-item img">
+                    <img src="images/opportunity-img.png" alt="Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__title">
+                <h2 class="h2-title reviews__h2">Отзывы</h2>
+                <h3 class="h3-title reviews__h3">>70% пациентов приходят по рекомендации</h3>
+            </div>
+            <div class="reviews__box">
+                <img class="arrow-left" src="images/review-left.svg" alt="Left arrow">
+                <div class="reviews__box-item">
+                    <h3 class="h3-title reviews__h3">Исключительное внимание к деталям </h3>
+                    <p class="text-p reviews__p">После посещения ортопеда в этой клинике я остался очень доволен.
+                        Сергей
+                        Юрьевич не только проявил высокую квалификацию, но и показал исключительное внимание к
+                        деталям
+                        моего случая. Он подробно объяснил причины моих болей в спине и предложил эффективный план
+                        лечения. Благодарю за профессионализм и искреннее отношение к пациентам. Рекомендую этого
+                        ортопеда всем, кто нуждается в квалифицированной помощи.</p>
+                    <p class="text-p reviews__name"><span>Врач:</span> Руслан Глушаков</p>
+                    <div class="reviews__box-item box-reviews">
+                        <div class="box-reviews-left">
+                            <div class="letter">М</div>
+                            <div class="box-reviews-name">Михаил К.</div>
+                            <svg width="2" height="22" viewBox="0 0 2 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect y="2" width="2" height="18" rx="1" fill="#E5E8E7" />
+                            </svg>
+                            <p class="text-p box-reviews-grade">5</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.99999 1.6665L12.575 6.88317L18.3333 7.72484L14.1667 11.7832L15.15 17.5165L9.99999 14.8082L4.84999 17.5165L5.83332 11.7832L1.66666 7.72484L7.42499 6.88317L9.99999 1.6665Z"
+                                    fill="#3E989A" />
+                            </svg>
+                        </div>
+                        <div class="box-reviews-right">
+                            <a class="yandex" href="#">Яндекс</a>
+                            <a class="yandex-mobile" href="#"><img src="images/yandex.svg" alt="yandex"></a>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7H17M17 7V17M17 7L7 17" stroke="#222222" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__box-item">
+                    <h3 class="h3-title reviews__h3">Лечение дало заметные улучшения</h3>
+                    <p class="text-p reviews__p">Я недавно посетила дерматолога в этой клинике и осталась очень
+                        довольна
+                        результатами. Врач была очень внимательной, тщательно осмотрела мою кожу и предложил
+                        эффективное
+                        лечение атопического дерматита. Лечение уже дало заметные улучшения, и я чувствую себя
+                        гораздо
+                        лучше. Я рекомендую этого дерматолога всем, кто ищет компетентного специалиста и
+                        качественный
+                        уход
+                        за кожей.</p>
+                    <p class="text-p reviews__name"><span>Врач:</span> Руслан Глушаков</p>
+                    <div class="reviews__box-item box-reviews">
+                        <div class="box-reviews-left">
+                            <div class="letter">К</div>
+                            <div class="box-reviews-name">Карина</div>
+                            <svg width="2" height="22" viewBox="0 0 2 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect y="2" width="2" height="18" rx="1" fill="#E5E8E7" />
+                            </svg>
+                            <p class="text-p box-reviews-grade">5</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.99999 1.6665L12.575 6.88317L18.3333 7.72484L14.1667 11.7832L15.15 17.5165L9.99999 14.8082L4.84999 17.5165L5.83332 11.7832L1.66666 7.72484L7.42499 6.88317L9.99999 1.6665Z"
+                                    fill="#3E989A" />
+                            </svg>
+                        </div>
+                        <div class="box-reviews-right">
+                            <a href="#">2ГИС</a>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7H17M17 7V17M17 7L7 17" stroke="#222222" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__box-item last">
+                    <h3 class="h3-title reviews__h3">Стоимость услуг оказалась доступной</h3>
+                    <p class="text-p reviews__p">Недавно обратилась в клинику, специализирующуюся на лечении
+                        заболеваний
+                        опорно-двигательного аппарата. Врачи там оказались высококвалифицированными, а современное
+                        оборудование позволило провести точную диагностику. Специалисты внимательно отнеслись к моей
+                        проблеме и предложили оптимальное решение. Стоимость услуг оказалась вполне доступной, а
+                        персонал клиники был доброжелателен и отзывчив. Рекомендую эту клинику всем, кто ищет
+                        качественную медицинскую помощь для своего здоровья.</p>
+                    <p class="text-p reviews__name"><span>Врач:</span> Руслан Глушаков</p>
+                    <div class="reviews__box-item box-reviews">
+                        <div class="box-reviews-left">
+                            <div class="letter">И</div>
+                            <div class="box-reviews-name">Игорь</div>
+                            <svg width="2" height="22" viewBox="0 0 2 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect y="2" width="2" height="18" rx="1" fill="#E5E8E7" />
+                            </svg>
+                            <p class="text-p box-reviews-grade">5</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.99999 1.6665L12.575 6.88317L18.3333 7.72484L14.1667 11.7832L15.15 17.5165L9.99999 14.8082L4.84999 17.5165L5.83332 11.7832L1.66666 7.72484L7.42499 6.88317L9.99999 1.6665Z"
+                                    fill="#3E989A" />
+                            </svg>
+                        </div>
+                        <div class="box-reviews-right">
+                            <a href="#">Про Врачей</a>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7H17M17 7V17M17 7L7 17" stroke="#222222" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <img class="arrow-right" src="images/review-right.svg" alt="Right arrow">
+            </div>
+            <button class="btn reviews__btn">Читать все отзывы</button>
+        </div>
+    </section>
+
+    <section class="mission">
+        <div class="container">
+            <div class="mission__title">
+                <h3 class="h3-title mission__h3">Больше 20 лет практики</h3>
+                <h2 class="h2-title mission__h2">Проводим <span>своевременную</span> диагностику и справляемся со
+                    <span>сложными</span> клиническими случаями
+                </h2>
+            </div>
+            <div class="mission__info">
+                <div class="mission__info-left">
+                    <img src="images/main.png" alt="Main doctor">
+                    <div class="mission__info-left-info">
+                        <p class="p-text mission__info-left-info-name">Галустян Анна Николаевна</p>
+                        <p class="p-text mission__info-left-info-post">Главный врач Medical Technologies</p>
+                    </div>
+                </div>
+                <div class="mission__info-right">
+                    <svg width="68" height="60" viewBox="0 0 68 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4 59.9999C14 59.9999 27.3333 56.6666 27.3333 33.3333V6.66661C27.3333 2.49995 24.8133 -0.0567204 20.6667 -5.37236e-05H7.33333C3.16666 -5.37236e-05 0.666664 2.49995 0.666664 6.57328V26.6666C0.666664 30.8333 3.16666 33.3333 7.33333 33.3333C10.6667 33.3333 10.6667 33.3333 10.6667 36.6666V39.9999C10.6667 43.3333 7.33333 46.6666 4 46.6666C0.666664 46.6666 0.666664 46.6933 0.666664 50.1033V56.6666C0.666664 59.9999 0.666664 59.9999 4 59.9999Z"
+                            fill="#D7F0EE" />
+                        <path
+                            d="M44 59.9999C54 59.9999 67.3333 56.6666 67.3333 33.3333V6.66661C67.3333 2.49995 64.81 -0.0567204 60.6667 -5.37236e-05H47.3333C43.1667 -5.37236e-05 40.6667 2.49995 40.6667 6.57328V26.6666C40.6667 30.8333 43.1667 33.3333 47.3333 33.3333H49.8333C49.8333 40.8333 50.6667 46.6666 40.6667 46.6666V56.6666C40.6667 59.9999 40.6667 59.9999 44 59.9999Z"
+                            fill="#D7F0EE" />
+                    </svg>
+                    <p class="mission__info-right-text p-text">Наша цель – превратить поход в медицинское учреждение
+                        в
+                        спокойное мероприятие без лишнего стресса. Мы создали безопасное пространство, в котором
+                        можно
+                        чувствовать себя уверенно и защищенно. Я действительно горжусь нашим подходом: каждый
+                        специалист
+                        заинтересован в скорейшем выздоровлении своего пациента, внимательно погружается в
+                        медицинскую
+                        ситуацию и ищет точечное, иногда нестандартное, решение проблемы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="partners__title">
+                <h2 class="h2-title partners__h2">Наши партнёры</h2>
+                <h3 class="h3-title partners__h3">Профессионалы своего дела</h3>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/partners/riat.svg" alt="Riat"></div>
+                    <div class="swiper-slide"><img src="images/partners/mariinskaya.svg" alt="mariinskaya"></div>
+                    <div class="swiper-slide"><img src="images/partners/invitro.svg" alt="invitro"></div>
+                    <div class="swiper-slide"><img src="images/partners/eml.svg" alt="eml"></div>
+                    <div class="swiper-slide"><img src="images/partners/vsk.svg" alt="vsk"></div>
+                    <div class="swiper-slide"><img src="images/partners/remsi.svg" alt="remsi"></div>
+                    <div class="swiper-slide"><img src="images/partners/best-doctor.svg" alt="best-doctor"></div>
+                </div>
+            </div>
+            <div class="swiper mySwiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/partners/best-doctor.svg" alt="best-doctor"></div>
+                    <div class="swiper-slide"><img src="images/partners/remsi.svg" alt="remsi"></div>
+                    <div class="swiper-slide"><img src="images/partners/invitro.svg" alt="invitro"></div>
+                    <div class="swiper-slide"><img src="images/partners/vsk.svg" alt="vsk"></div>
+                    <div class="swiper-slide"><img src="images/partners/eml.svg" alt="eml"></div>
+                    <div class="swiper-slide"><img src="images/partners/mariinskaya.svg" alt="mariinskaya"></div>
+                    <div class="swiper-slide"><img src="images/partners/riat.svg" alt="Riat"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="news__title">
+                <h2 class="h2-title news__h2">Пресс-центр</h2>
+                <h3 class="h3-title news_h3">Будьте в курсе наших новостей</h3>
+                <div class="news__box-btns">
+                    <button class="news__box-btn active">Новости</button>
+                    <button class="news__box-btn">Статьи</button>
+                </div>
+            </div>
+            <div class="news__box">
+                <img class="arrow-left" src="images/review-left.svg" alt="Left arrow">
+                <div class="news__box-item">
+                    <div class="news__box-item-img item-1"></div>
+                    <div class="news__box-item-date">
+                        <p class="text-p news__p">22 мая 2023</p>
+                    </div>
+                    <div class="news__box-item-info active">
+                        <h3 class="h3-title news__box-item-info-title">День рождения клиники<br> на Звенигородской!
+                        </h3>
+                        <p class="p-text news__box-item-info-text">Сегодня свой второй день рождения отмечает
+                            медицинский центр
+                            по адресу 2-я Звенигородская ул., д. 13, стр. 40. У клиники паппапап</p>
+                    </div>
+                </div>
+
+                <div class="news__box-item">
+                    <div class="news__box-item-img item-2"></div>
+                    <div class="news__box-item-date">
+                        <p class="text-p news__p">12 марта 2023</p>
+                    </div>
+                    <div class="news__box-item-info">
+                        <h3 class="h3-title news__box-item-info-title">Новая программа профилактики
+                            сердечно-сосудистых
+                            заболеваний</h3>
+                        <p class="p-text news__box-item-info-text">Пациенты могут пройти комплексное обследование,
+                            включающее в
+                            себя анализы, ультразвуковое исследование, ЭКГ и консультацию кардиоло...</p>
+                    </div>
+                </div>
+
+                <div class="news__box-item">
+                    <div class="news__box-item-img item-3"></div>
+                    <div class="news__box-item-date">
+                        <p class="text-p news__p">22 мая 2023</p>
+                    </div>
+                    <div class="news__box-item-info">
+                        <h3 class="h3-title news__box-item-info-title">Программа бесплатных консультаций для всей
+                            семьи
+                        </h3>
+                        <p class="p-text news__box-item-info-text">Пациенты смогут получить квалифицированную помощь
+                            и
+                            рекомендации специалистов по широкому спектру заболеваний, не выходя из дома.</p>
+                    </div>
+                </div>
+                <img class="arrow-left" src="images/review-right.svg" alt="Right arrow">
+            </div>
+            <button class="btn news__btn">Читать все новости</button>
+        </div>
+    </section>
+
+    <section class="sertificates">
+        <div class="container">
+            <h2 class="h2-title sertificates__h2">Сертификаты</h2>
+            <div class="sertificates__box">
+                <div class="sertificates__box-item">
+                    <button class="sertificates__btn"><svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.7222 12.5815V15.9149C17.7222 16.3569 17.5466 16.7808 17.234 17.0934C16.9215 17.4059 16.4975 17.5815 16.0555 17.5815H4.38883C3.94681 17.5815 3.52288 17.4059 3.21032 17.0934C2.89776 16.7808 2.72217 16.3569 2.72217 15.9149V12.5815M6.0555 8.41488L10.2222 12.5815M10.2222 12.5815L14.3888 8.41488M10.2222 12.5815V2.58154"
+                                stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>Скачать</button>
+                </div>
+                <div class="sertificates__box-item">
+                    <p class="sertificates__title"><span>Лицензия</span> #3026</p>
+                    <p class="p-text sertificates__info">На осуществление медицинской деятельности</p>
+                    <div class="sertificates__number">
+                        <p class="p-text sertificates__number-seria"><span>Серия</span>&nbsp;78Л01</p>
+                        <p class="p-text sertificates__number-number"><span>№</span>&nbsp;0003458</p>
+                    </div>
+
+                    <button class="sertificates__btn"><svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.7222 12.5815V15.9149C17.7222 16.3569 17.5466 16.7808 17.234 17.0934C16.9215 17.4059 16.4975 17.5815 16.0555 17.5815H4.38883C3.94681 17.5815 3.52288 17.4059 3.21032 17.0934C2.89776 16.7808 2.72217 16.3569 2.72217 15.9149V12.5815M6.0555 8.41488L10.2222 12.5815M10.2222 12.5815L14.3888 8.41488M10.2222 12.5815V2.58154"
+                                stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>Скачать</button>
+                </div>
+                <div class="sertificates__box-item">
+                    <p class="sertificates__title"><span>Лицензия</span> #3026</p>
+                    <p class="p-text sertificates__info">На осуществление медицинской деятельности</p>
+                    <div class="sertificates__number">
+                        <p class="p-text sertificates__number-seria"><span>Серия</span>&nbsp;78Л01</p>
+                        <p class="p-text sertificates__number-number"><span>№</span>&nbsp;0003458</p>
+                    </div>
+                    <button class="sertificates__btn"><svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.7222 12.5815V15.9149C17.7222 16.3569 17.5466 16.7808 17.234 17.0934C16.9215 17.4059 16.4975 17.5815 16.0555 17.5815H4.38883C3.94681 17.5815 3.52288 17.4059 3.21032 17.0934C2.89776 16.7808 2.72217 16.3569 2.72217 15.9149V12.5815M6.0555 8.41488L10.2222 12.5815M10.2222 12.5815L14.3888 8.41488M10.2222 12.5815V2.58154"
+                                stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>Скачать</button>
+                </div>
+                <div class="sertificates__box-item">
+                    <p class="sertificates__title"><span>Лицензия</span> #3026</p>
+                    <p class="p-text sertificates__info">На осуществление медицинской деятельности</p>
+                    <div class="sertificates__number">
+                        <p class="p-text sertificates__number-seria"><span>Серия</span>&nbsp;78Л01</p>
+                        <p class="p-text sertificates__number-number"><span>№</span>&nbsp;0003458</p>
+                    </div>
+                    <button class="sertificates__btn"><svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.7222 12.5815V15.9149C17.7222 16.3569 17.5466 16.7808 17.234 17.0934C16.9215 17.4059 16.4975 17.5815 16.0555 17.5815H4.38883C3.94681 17.5815 3.52288 17.4059 3.21032 17.0934C2.89776 16.7808 2.72217 16.3569 2.72217 15.9149V12.5815M6.0555 8.41488L10.2222 12.5815M10.2222 12.5815L14.3888 8.41488M10.2222 12.5815V2.58154"
+                                stroke="#222222" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>Скачать</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-item">
+                    <img class="footer__logo" src="images/footer-logo.svg" alt="Logo">
+                    <a class="phone-link phone-link-mobile" href="tel:+79112100287">+7 911 210-02-87</a>
+                    <div class="footer__inner-item-address">
+                        <p class="p-text footer__inner-item-address-text">г. Санкт-Петербург:</p>
+                        <ul>
+                            <li><svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.5541 17.5196H5.44591V12.0604H0V6.93974H5.44591V1.48047H10.5541V6.93974H16V12.0604H10.5541V17.5196Z"
+                                        fill="#424847" />
+                                </svg>Восстания,д. 8</li>
+                            <li><svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.5541 17.5196H5.44591V12.0604H0V6.93974H5.44591V1.48047H10.5541V6.93974H16V12.0604H10.5541V17.5196Z"
+                                        fill="#424847" />
+                                </svg>Малый проспект, П.С., д. 3</li>
+                            <li><svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.5541 17.5196H5.44591V12.0604H0V6.93974H5.44591V1.48047H10.5541V6.93974H16V12.0604H10.5541V17.5196Z"
+                                        fill="#424847" />
+                                </svg>Сантьяго-де-Куба, д. 4, к. 1</li>
+                        </ul>
+                        <a href="#" class="footer__inner-btn">Cмотреть на карте <svg width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.66669 4.66675H11.3334M11.3334 4.66675V11.3334M11.3334 4.66675L4.66669 11.3334"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                    <div class="footer__inner-item-time">
+                        <p class="p-text footer__inner-item-time-text">Пн-Вс – 8:00 - 20:00</p>
+                    </div>
+                    <div class="footer__inner-item-social">
+                        <div class="footer__inner-item-18">
+                            <img src="images/social/18.svg" alt="social">
+                        </div>
+                        <div class="footer__inner-item-socials">
+                            <a href="#"><img src="images/social/ok.svg" alt="ok"></a>
+                            <a href="#"><img src="images/social/vk.svg" alt="vk"></a>
+                            <a href="#"><img src="images/social/telegram.svg" alt="telegram"></a>
+                            <a href="#"><img src="images/social/whatsapp.svg" alt="whatsapp"></a>
+                            <a href="#"><img src="images/social/frame.svg" alt="frame"></a>
+                        </div>
+                    </div>
+                    <div class="footer__inner-item-btns">
+                        <button class="btn footer__inner-item-btns-btn active">Задать вопрос</button>
+                        <button class="btn footer__inner-item-btns-btn">Версия для слабовидящих<svg width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7H17M17 7V17M17 7L7 17" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></button>
+                    </div>
+                </div>
+                <div class="footer__inner-item list">
+                    <ul class="footer__inner-item-menu-info">
+                        <li><a href="#">О центре</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Врачи</a></li>
+                        <li><a href="#">Анализы</a></li>
+                        <li><a href="#">Пациентам</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                    </ul>
+
+                    <ul class="footer__inner-item-menu-doctors">
+                        <li><a href="#">Косметолог</a></li>
+                        <li><a href="#">Кардиолог</a></li>
+                        <li><a href="#">Дерматолог</a></li>
+                        <li><a href="#">Диетолог</a></li>
+                        <li><a href="#">Гастроэнтеролог</a></li>
+                        <li><a href="#">Гинеколог</a></li>
+                        <li><a href="#">Терапевт</a></li>
+                        <li><a href="#">Эндокринолог</a></li>
+                        <li><a href="#">Пульмонолог</a></li>
+                        <li><a href="#">Иммунолог</a></li>
+                        <li><a href="#">Педиатр</a></li>
+                        <li><a href="#">Ревматолог</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__inner-item">
+                    <a class="phone-link" href="tel:+79112100287">+7 911 210-02-87</a>
+                    <p class="p-text footer__inner-item-text first">Есть противопоказания, необходима консультация
+                        специалиста. Не оферта. Окончательную стоимость услуг уточнять по телефону</p>
+                    <div class="footer__inner-item-download">
+                        <p class="p-text footer__inner-item-text second ">Скачайте наше приложение, в котором вы
+                            сможете
+                            записываться на прием, получать результаты анализов и обследований и оплачивать услуги
+                            онлайн.</p>
+                        <div class="footer__inner-item-download-app">
+                            <a href="#"><img src="images/appstore.svg" alt="AppStore"></a>
+                            <a href="#"><img src="images/google.svg" alt="GooglePlay"></a>
+                        </div>
+                    </div>
+                    <p class="footer__inner-item-text">Все материалы данного сайта являются объектами авторского
+                        права
+                        (в том числе дизайн). Запрещается копирование, распространение (в том числе путем
+                        копирования на
+                        другие сайты и ресурсы в Интернете) или любое иное использование информации и объектов без
+                        предварительного письменного согласия правообладателя. Указание ссылки на источник
+                        информации
+                        является обязательным.</p>
+                </div>
+            </div>
+            <div class="footer__links">
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Публичный договор</a></li>
+                    <li><a href="#">Лицензия</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__bottom">
+                <ul>
+                    <li>ООО «МЕДИЦИНСКИЕ ТЕХНОЛОГИИ» ИНН 7813673213</li>
+                    <li>ЛИЦЕНЗИЯ НА ОСУЩЕСТВЛЕНИЕ МЕДИЦИНСКОЙ ДЕЯТЕЛЬНОСТИ Л041-01148-78/00308130 ОТ 06.09.2023</li>
+                    <li>Разработано в <a href="#"><img src="images/logo-belberry.svg" alt="Belberry"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
