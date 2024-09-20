@@ -1884,6 +1884,12 @@ button[type="submit"]:hover {
     width: 68px;
 }
 
+@media screen and (max-width: 1440px) {
+    .header {
+        overflow-x: hidden;
+    }
+    
+}
 
 @media screen and (max-width: 428px) {
 
