@@ -266,7 +266,7 @@ button[type="submit"]:hover {
 }
 
 .header {
-    min-height: 650px;
+    height: 650px;
     padding-top: 56px;
     background-color: var(--bg);
 }
@@ -1885,6 +1885,12 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 1440px) {
+    .header {
+        overflow-x: clip;
+    }
+}
+
+@media screen and (max-width: 1366px) {
     .header {
         overflow-x: clip;
     }
