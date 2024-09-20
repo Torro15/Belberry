@@ -83,9 +83,9 @@ var swiper = new Swiper('.mySwiper', {
     spaceBetween: 20,
     simulateTouch: true,
     breakpoints: {
-        375: { // Для экранов шириной 375px и меньше
+        320: { // Для экранов шириной 320 и больше
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 20,
         },
         640: { // Для экранов шириной 640px и больше
             slidesPerView: 4,
@@ -93,10 +93,10 @@ var swiper = new Swiper('.mySwiper', {
         },
         1024: { // Для экранов шириной 1024px и больше
             slidesPerView: 6,
-            spaceBetween: 30,
+            spaceBetween: 20,
         }
+    
     }
-
 });
 
 
@@ -107,9 +107,9 @@ var swiper2 = new Swiper(".mySwiper-2", {
         watchState: true,
     },
     breakpoints: {
-        375: { // Для экранов шириной 375px и меньше
+        320: { // Для экранов шириной шириной 320 и больше
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 20,
         },
         640: { // Для экранов шириной 640px и больше
             slidesPerView: 4,
@@ -117,7 +117,7 @@ var swiper2 = new Swiper(".mySwiper-2", {
         },
         1024: { // Для экранов шириной 1024px и больше
             slidesPerView: 6,
-            spaceBetween: 30,
+            spaceBetween: 20,
         }
     }
 });
