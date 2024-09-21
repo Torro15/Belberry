@@ -1389,6 +1389,10 @@ button[type="submit"]:hover {
     object-fit: cover;
 }
 
+.swiper-button-prev, .swiper-button-next {
+   color: transparent;
+}
+
 .news {
     height: 632px;
     margin-bottom: 120px;
@@ -1886,14 +1890,12 @@ button[type="submit"]:hover {
 
 @media screen and (max-width: 1440px) {
     .header {
-        overflow-x: clip;
+        overflow-x: hidden;
     }
 }
 
 @media screen and (max-width: 1366px) {
-    .header {
-        overflow-x: clip;
-    }
+   
 }
 
 @media screen and (max-width: 1028px) {
