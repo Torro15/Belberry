@@ -1955,6 +1955,12 @@ button[type="submit"]:hover {
 
     .help__h4 {
         width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .help__box-btns {
+        position: static;
+        margin-bottom: 16px;
     }
 
     .help__quizz {
@@ -2186,6 +2192,7 @@ button[type="submit"]:hover {
     .help__box-list {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .help__quizz {
         width: 100%;
         height: 490px;
@@ -2193,7 +2200,6 @@ button[type="submit"]:hover {
         justify-content: center;
         gap: 16px;
         padding: 10px 16px 20px 16px;
-        
     }
 
     .help__quizz-info .help__h4,
@@ -2206,6 +2212,7 @@ button[type="submit"]:hover {
     .help__quizz-info .help__h4 {
         margin-bottom: 4px;
     }
+
     .help__quizz-question {
         width: 100%;
         height: 60%;
@@ -2548,7 +2555,6 @@ button[type="submit"]:hover {
     }
 
     .help__box-btns {
-        position: static;
         margin-bottom: 17px;
     }
 
