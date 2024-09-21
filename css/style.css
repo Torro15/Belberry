@@ -1895,7 +1895,9 @@ button[type="submit"]:hover {
 }
 
 @media screen and (max-width: 1366px) {
-   
+   .nav__menu-list {
+    margin-left: 0;
+   }
 }
 
 @media screen and (max-width: 1028px) {
