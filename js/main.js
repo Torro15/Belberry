@@ -1,3 +1,10 @@
+//Отложенная загрузка избражений
+const observer = lozad('.lozad', {
+    threshold: 0.1
+  });
+  observer.observe();
+
+
 // Модальное окно
 $(document).ready(function () {
     // Маска для поля ввода телефона
@@ -165,9 +172,9 @@ var swiper4 = new Swiper(".mySwiper-4", {
         320: { // Для экранов шириной шириной 320 и больше
             slidesPerView: 1,
             spaceBetween: 20,
-
         },
-        860: { // Для экранов шириной 768px и больше
+
+        860: { // Для экранов шириной 860px и больше
             slidesPerView: 2,
             slidesPerGroup: 2,
             spaceBetween: 20,
@@ -195,12 +202,13 @@ var swiper5 = new Swiper(".mySwiper-5", {
             slidesPerView: 1,
             spaceBetween: 20,
         },
-        640: { // Для экранов шириной 640px и больше
+
+        860: { // Для экранов шириной 860px и больше
             slidesPerView: 2,
             slidesPerGroup: 2,
             spaceBetween: 20,
         },
-        
+
         1440: {
             slidesPerView: 3,
             spaceBetween: 20,

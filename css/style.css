@@ -1899,6 +1899,10 @@ button[type="submit"]:hover {
         width: 100%;
         margin-left: 0;
     }
+
+    .news__box {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 1366px) {
@@ -2031,6 +2035,7 @@ button[type="submit"]:hover {
 
 @media screen and (max-width: 850px) {
 
+
     .h2-title {
         font-size: 24px;
     }
@@ -2047,6 +2052,10 @@ button[type="submit"]:hover {
         width: 40%;
     }
 
+    .btn[type=submit] {
+        width: 100%;
+    }
+
     .container {
         padding: 0 20px;
     }
@@ -2056,7 +2065,7 @@ button[type="submit"]:hover {
     }
 
     .nav__menu-btn {
-        width: 100%;
+        width: 150%;
     }
 
     .header {
@@ -2103,8 +2112,8 @@ button[type="submit"]:hover {
 
     .header__box-btns-info svg {
         position: absolute;
-        top: 33px;
-        left: 327px;
+        top: 44px;
+        left: 296px;
     }
 
     .header__box-btns-text {
@@ -2113,12 +2122,6 @@ button[type="submit"]:hover {
 
     .pagination.active {
         left: 117px;
-    }
-
-    .header__box-btns-info svg {
-        position: absolute;
-        top: 0px;
-        left: 257px;
     }
 
     .about {
@@ -2209,8 +2212,28 @@ button[type="submit"]:hover {
         background-position: right bottom;
     }
 
+    .help, .doctors, .opportunity , .reviews, .partners, .news, .sertificates{
+        margin-bottom: 60px;
+    }
+
+    .opportunity__p {
+        font-size: 11px;
+    }
+
+    .opportunity__box-item.info ul {
+        font-size: 12px;
+    }
+
+    .reviews__name {
+        margin-bottom: 48px;
+    }
+
     .mission {
         height: 400px;
+    }
+
+    .footer__inner-item-btns-btn {
+        width: 100%;
     }
 }
 
@@ -2402,7 +2425,7 @@ button[type="submit"]:hover {
     }
 
     .pagination.active {
-        left: 105px;
+        left: 85px;
     }
 
     .header__box-btns-info svg {
@@ -2411,7 +2434,8 @@ button[type="submit"]:hover {
     }
 
     .about {
-        margin-bottom: 75px;
+        height: 778px;
+        margin-bottom: 152px;
     }
 
     .about__inner {
@@ -2897,13 +2921,13 @@ button[type="submit"]:hover {
         margin-bottom: 17px;
     }
 
-    .mySwiper .swiper-slide {
+    .mySwiper .swiper-slide, .mySwiper-2 .swiper-slide {
         border-radius: 9px;
         width: 156px;
         height: 80px;
     }
 
-    .mySwiper .swiper-slide img {
+    .mySwiper .swiper-slide img,  .mySwiper-2 .swiper-slide img{
         width: 156px;
         height: 80px;
         object-fit: cover;
