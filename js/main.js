@@ -124,7 +124,7 @@ var swiper2 = new Swiper(".mySwiper-2", {
 
 
 var swiper3 = new Swiper(".mySwiper-3", {
-    slidesPerView: 4,
+    // slidesPerView: 4,
     spaceBetween: 20,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -142,6 +142,10 @@ var swiper3 = new Swiper(".mySwiper-3", {
             spaceBetween: 20,
         },
         1024: { // Для экранов шириной 1024px и больше
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1360: {
             slidesPerView: 4,
             spaceBetween: 20,
         }
@@ -164,9 +168,10 @@ var swiper4 = new Swiper(".mySwiper-4", {
         },
         640: { // Для экранов шириной 640px и больше
             slidesPerView: 2,
+            slidesPerGroup: 2,
             spaceBetween: 20,
         },
-        1024: { // Для экранов шириной 1024px и больше
+        1440: {
             slidesPerView: 3,
             spaceBetween: 20,
         }
@@ -175,6 +180,7 @@ var swiper4 = new Swiper(".mySwiper-4", {
 
 var swiper5 = new Swiper(".mySwiper-5", {
     slidesPerView: 3,
+    
     spaceBetween: 20,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -189,9 +195,11 @@ var swiper5 = new Swiper(".mySwiper-5", {
         },
         640: { // Для экранов шириной 640px и больше
             slidesPerView: 2,
+            slidesPerGroup: 2,
             spaceBetween: 20,
         },
-        1024: { // Для экранов шириной 1024px и больше
+        
+        1440: {
             slidesPerView: 3,
             spaceBetween: 20,
         }
@@ -201,10 +209,6 @@ var swiper5 = new Swiper(".mySwiper-5", {
 var swiper6 = new Swiper(".mySwiper-6", {
     slidesPerView: 4,
     spaceBetween: 20,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
     loop: true, 
 
     breakpoints: {
@@ -217,8 +221,13 @@ var swiper6 = new Swiper(".mySwiper-6", {
             spaceBetween: 20,
         },
         1024: { // Для экранов шириной 1024px и больше
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        1360:{
             slidesPerView: 4,
             spaceBetween: 20,
         }
-    }
+        }
 });
