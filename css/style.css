@@ -958,6 +958,7 @@ button[type="submit"]:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     border-radius: 6px;
     padding: 6px 10px;
     width: 97px;
@@ -982,6 +983,7 @@ button[type="submit"]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
     border-radius: 6px;
     padding: 0 10px;
     width: 148px;
