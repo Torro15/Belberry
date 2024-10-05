@@ -1248,7 +1248,7 @@ button[type="submit"]:hover {
 }
 
 .box-reviews-grade {
-    font-style: 18px;
+    font-size: 18px;
     margin-left: 12px;
     margin-right: 2px;
     color: var(--accent);
@@ -1502,6 +1502,9 @@ button[type="submit"]:hover {
 
 
 .news__box-item-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 9px;
     left: 9px;
@@ -1705,7 +1708,7 @@ button[type="submit"]:hover {
 .footer__inner-btn {
     border-bottom: 1px solid #677371;
     padding: 0px 0px 4px 0px;
-    width: 141px;
+    width: 50%;
     height: 22px;
     display: flex;
     align-items: center;
