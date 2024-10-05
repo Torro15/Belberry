@@ -269,7 +269,7 @@ button[type="submit"]:hover {
     height: 650px;
     padding-top: 56px;
     background-color: var(--bg);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .header__title {
@@ -1032,7 +1032,7 @@ button[type="submit"]:hover {
 .doctors__btn {
     margin: 0 auto;
     padding: 8px 24px 10px 24px;
-    width: 227px;
+    width: 228px;
     cursor: pointer;
 }
 
