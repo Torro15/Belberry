@@ -241,3 +241,4 @@ var swiper6 = new Swiper(".mySwiper-6", {
         }
         }
 });
+

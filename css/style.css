@@ -2678,7 +2678,7 @@ button[type="submit"]:hover {
     .help__quizz-btn {
         width: auto;
         min-width: 91px;
-        max-width: 164px;
+        max-width: 165px;
         padding: 11px 16px;
         font-family: var(--font-family);
         font-weight: 400;
