@@ -1179,7 +1179,7 @@ button[type="submit"]:hover {
 .reviews__box-item {
     border: 1px solid #e5e8e7;
     border-radius: 24px;
-    padding: 24px;
+    padding: 24px 24px 0 24px;
     width: 427px;
     height: 100%;
 }
