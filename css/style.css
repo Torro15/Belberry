@@ -1171,7 +1171,7 @@ button[type="submit"]:hover {
     display: flex;
     align-items: center;
     width: 1425px;
-    height: 339px;
+    height: auto;
     margin-left: -53px;
     margin-bottom: 34px;
 }
@@ -1288,7 +1288,7 @@ button[type="submit"]:hover {
 
 .swiper.mySwiper-4 {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .mission {
@@ -2000,7 +2000,8 @@ button[type="submit"]:hover {
     }
 
     .doctors__tabs {
-        overflow: hidden;
+        overflow: scroll;
+        scrollbar-width: none;
     }
 
     .help__h4 {
@@ -2265,6 +2266,11 @@ button[type="submit"]:hover {
         font-size: 12px;
     }
 
+    .doctors__tabs {
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+
     .reviews__name {
         margin-bottom: 48px;
     }
@@ -2520,10 +2526,6 @@ button[type="submit"]:hover {
         margin-bottom: 42px;
     }
 
-    .about__inner-btn {
-
-    }
-
     .why {
         margin-bottom: 87px;
     }
@@ -2585,7 +2587,8 @@ button[type="submit"]:hover {
     }
 
     .help__tabs {
-        overflow: hidden;
+        overflow: scroll;
+        scrollbar-width: none;
         margin-bottom: 9px;
     }
 
@@ -2701,7 +2704,8 @@ button[type="submit"]:hover {
     }
 
     .doctors__tabs {
-        overflow: hidden;
+        overflow: scroll;
+        scrollbar-width: none;
         margin-bottom: 12px;
     }
 
@@ -2835,7 +2839,6 @@ button[type="submit"]:hover {
 
     .reviews__box {
         width: 100%;
-        height: auto;
         margin-left: 0;
         margin-bottom: 22px;
     }
@@ -2843,12 +2846,7 @@ button[type="submit"]:hover {
     .reviews__box-item {
         padding: 17px 16px 0px 15px;
         width: 280px;
-        height: 100%;
         border-radius: 12px;
-    }
-
-    .swiper.mySwiper-4 {
-        height: auto;
     }
 
     .swiper.mySwiper-4 .swiper-slide {
